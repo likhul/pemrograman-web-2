@@ -10,6 +10,9 @@
   </head>
   <body>
     <div class="container">
+        <div class="col-12">
+
+        </div>
         <h1>Form Update Buku <?php echo $buku->getJudul();?></h1>
         <form id="FormUpdate" action="/index.php/update" method="POST"
             class="w-50">
