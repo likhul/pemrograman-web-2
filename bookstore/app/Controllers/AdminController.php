@@ -17,7 +17,7 @@ class AdminController extends BaseController
     public function __construct()
     {
         $this -> book = new ModelBook();
-        $this->publisher = new ModelPublisher(); //3 inisialisasi Buku dan Publisher
+        $this->publisher = new ModelPublisher(); 
     }
 
     public function index()

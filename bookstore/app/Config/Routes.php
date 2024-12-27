@@ -9,7 +9,7 @@ $routes->get('login', 'Login');
 $routes->post('login/autentikasi', 'Login::autentikasi');
 $routes->get('/logout', 'Auth::logout');
 
-$routes->get('/', 'AdminController::index');
+$routes->get('/', 'AdminController::user');
 $routes->get('/admin', 'AdminController::admin');
 $routes->get('/pengadaan', 'AdminController::pengadaan');
 $routes->get('/pengadaan/print', 'AdminController::printPengadaan'); 
